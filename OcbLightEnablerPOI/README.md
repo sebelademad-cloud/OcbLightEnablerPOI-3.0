@@ -1,27 +1,50 @@
 ﻿# OcbLightEnablerPOI
 
-A 7 Days to Die 3.x modernization of OCB's Light Enabler POI mod.
+A modern Harmony-based port of OCB's **Light Enabler POI** mod for **7 Days to Die 3.x**.
 
-## Overview
+This mod allows vanilla POI lights to be switched on and off during normal gameplay, just like any other interactable light source.
 
-This project updates the original OCB Light Enabler POI mod for 7 Days to Die 3.x.
+---
 
-Instead of directly porting the legacy implementation, this version is being rewritten around the 3.x `BlockLight` API to improve compatibility and reduce maintenance.
+## Features
 
-## Status
+- ✔ Enables interaction with vanilla POI lights
+- ✔ Compatible with 7 Days to Die 3.x
+- ✔ Harmony-based implementation
+- ✔ Lightweight and easy to install
 
-🚧 Work in progress
+---
 
-### Current Progress
+## Installation
 
-- ✅ Visual Studio project created
-- ✅ Compiles against 7 Days to Die 3.x
-- ⏳ Harmony patches in development
+1. Download the latest release.
+2. Extract the `OcbLightEnablerPOI` folder into:
+
+```
+7 Days To Die/Mods/
+```
+
+3. Launch the game.
+
+---
+
+## Known Issues
+
+- The interaction prompt is currently not displayed.
+- Looking at a POI light and pressing **E** will still toggle the light correctly.
+
+---
 
 ## Credits
 
-Original mod by OCB:
+Original mod:
+- OCB
 
-https://github.com/OCB7D2D/OcbLightEnablerPOI
+3.x Harmony port:
+- Sebastian
 
-This project is an independent community modernization and is not an official OCB release.
+---
+
+## License
+
+MIT License
