@@ -55,7 +55,6 @@
     <Compile Include="Harmony\BlockLightActivationCommandsPatch.cs" />
     <Compile Include="Harmony\BlockLightActivationTextPatch.cs" />
     <Compile Include="Harmony\ModApi.cs" />
-    <Compile Include="Harmony\TestPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

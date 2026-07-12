@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using System.Linq;
+using HarmonyLib;
 using UnityEngine;
 
 namespace OcbLightEnablerPOI
@@ -9,7 +10,10 @@ namespace OcbLightEnablerPOI
         {
             Debug.Log("[OcbLightEnablerPOI] InitMod called");
 
-            new HarmonyLib.Harmony("ocb.lightenablerpoi").PatchAll();
+            var harmony = new HarmonyLib.Harmony("ocb.lightenablerpoi");
+            harmony.PatchAll();
+
+            Debug.Log($"[OcbLightEnablerPOI] Patched methods: {harmony.GetPatchedMethods().Count()}");
 
             Debug.Log("[OcbLightEnablerPOI] Harmony patches applied");
         }
