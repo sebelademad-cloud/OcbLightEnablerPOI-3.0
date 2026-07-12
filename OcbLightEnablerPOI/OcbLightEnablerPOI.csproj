@@ -55,10 +55,12 @@
     <Compile Include="Harmony\BlockLightActivationCommandsPatch.cs" />
     <Compile Include="Harmony\BlockLightActivationTextPatch.cs" />
     <Compile Include="Harmony\ModApi.cs" />
+    <Compile Include="Harmony\TestPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CHANGELOG.md" />
+    <None Include="DESIGN.md" />
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
