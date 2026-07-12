@@ -6,7 +6,8 @@ namespace OcbLightEnablerPOI
     {
         public void InitMod(Mod mod)
         {
-            new Harmony("ocb.lightenablerpoi").PatchAll();
+            Harmony harmony = new Harmony("ocb.lightenablerpoi");
+            harmony.PatchAll();
         }
     }
 }
